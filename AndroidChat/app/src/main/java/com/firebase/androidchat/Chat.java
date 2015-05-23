@@ -1,7 +1,7 @@
 package com.firebase.androidchat;
 
 /**
- * @author greg
+ * @author William de Visser
  * @since 6/21/13
  */
 public class Chat {
