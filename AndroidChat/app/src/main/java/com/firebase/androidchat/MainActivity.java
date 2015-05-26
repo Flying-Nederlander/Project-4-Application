@@ -115,7 +115,7 @@ public class MainActivity extends ListActivity {
             prefs.edit().putString("username", mUsername).commit();
         }
     }
-
+//dit zend de message
     private void sendMessage() {
         EditText inputText = (EditText) findViewById(R.id.messageInput);
         String input = inputText.getText().toString();
