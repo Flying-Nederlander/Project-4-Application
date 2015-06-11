@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/subject_1"
+        android:title="Locatie" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/ask1_1"
+                android:title="Waar ben je?" />
+            <item android:id="@+id/ask1_2"
+                android:title="Waar is de les?" />
+            <item android:id="@+id/ask1_3"
+                android:title="Waar spreken we af?" />
+                   </menu>
+    </item>
+    <item android:id="@+id/subject_2"
+        android:title="Eten">
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/ask2_1"
+                android:title="Hoe laat eten we?" />
+            <item android:id="@+id/ask2_2"
+                android:title="Wat zullen we eten?" />
+        </menu>
+    </item>
+    <item android:id="@+id/subject_3"
+        android:title="Persoon">
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/ask3_1"
+                android:title="Wie ben je?" />
+            <item android:id="@+id/ask3_2"
+                android:title="Wat voor werk heb je?" />
+            <item android:id="@+id/ask3_3"
+                android:title="Wat doe je?" />
+        </menu>
+    </item>
+</menu>
