@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.firebase.androidchat.Startscherm">
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButton" />
+
+    <EditText
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/imageButton" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Chats"
+        android:id="@+id/chatbutton"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:id="@+id/contactbutton"
+        android:layout_below="@+id/chatbutton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:id="@+id/locationbutton"
+        android:layout_below="@+id/contactbutton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Questions"
+        android:id="@+id/questionsbutton"
+        android:layout_below="@+id/locationbutton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Answers"
+        android:id="@+id/answersbutton"
+        android:layout_below="@+id/questionsbutton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/settingsbutton"
+        android:layout_below="@+id/answersbutton"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
