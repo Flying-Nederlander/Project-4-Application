@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listFooter"
+        android:layout_alignParentTop="true"
+        android:transcriptMode="alwaysScroll" />
+
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Waar ben je?"
+        android:id="@+id/waarBenJe"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:onClick="sendMessage"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoe laat gaan we?"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:id="@+id/hoeLaatGaanWe"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:onClick="sendMessage"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Wie ben je?"
+        android:id="@+id/Wie"
+        android:textColor="@android:color/black"
+        android:backgroundTint="#ffaa66cc"
+        android:layout_below="@+id/waarBenJe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:onClick="sendMessage"/>
+
+    <LinearLayout
+        android:id="@+id/listFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Asks"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#ffaa66cc"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="showMenu"/>
+    </LinearLayout>
+</RelativeLayout>
